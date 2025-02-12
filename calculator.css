@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb);
+    font-family: 'Arial', sans-serif;
+    animation: bgColorShift 10s infinite alternate;
+}
+
+@keyframes bgColorShift {
+    0% { background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb); }
+    50% { background: linear-gradient(135deg, #a1c4fd, #c2e9fb); }
+    100% { background: linear-gradient(135deg, #fbc2eb, #a6c1ee); }
+}
+
+.calculator {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    width: 320px;
+    transform: scale(1);
+    transition: transform 0.3s;
+}
+
+.calculator:hover {
+    transform: scale(1.05);
+}
+
+#display {
+    width: 290px;
+    height: 70px;
+    font-size: 28px;
+    text-align: right;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+button {
+    padding: 18px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #76b852, #8DC26F);
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+.equals {
+    background: linear-gradient(135deg, #1e90ff, #00bfff);
+}
+
+.equals:hover {
+    background: linear-gradient(135deg, #1c86ee, #00b2ee);
+}
+
+.equals:active {
+    background: linear-gradient(135deg, #1c86ee, #00b2ee);
+}
+
+.operator {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+}
+
+.operator:hover {
+    background: linear-gradient(135deg, #ff6a4d, #fd9a64);
+}
+
+.clear {
+    background: linear-gradient(135deg, #f857a6, #ff5858);
+}
+
+.clear:hover {
+    background: linear-gradient(135deg, #e84195, #ff4444);
+}
+
+.number {
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+}
+
+.number:hover {
+    background: linear-gradient(135deg, #f9a8d4, #9cbce9);
+}
