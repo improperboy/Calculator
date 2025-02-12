@@ -7,10 +7,15 @@ This is a simple yet visually appealing calculator built using HTML, CSS, and Ja
 Features
 
 ✅ Clean and stylish user interface
+
 ✅ Fully responsive design
+
 ✅ Animated buttons with hover effects
+
 ✅ Smooth gradient background transition
+
 ✅ Basic arithmetic operations (+, -, *, /)
+
 ✅ Clear display button
 
 Technologies Used
@@ -24,6 +29,7 @@ JavaScript - Functionality and logic
 Project Structure
 
 /calculator
+
 │── index.html       # Main HTML file  
 │── calculator.css   # Stylesheet  
 │── calculator.js    # JavaScript logic 
@@ -32,7 +38,9 @@ Project Structure
 Setup & Usage
 
 1️⃣ Download or clone the repository
+
 2️⃣ Open index.html in any web browser
+
 3️⃣ Start using the calculator!
 
 Screenshot
@@ -42,7 +50,9 @@ Screenshot
 Future Improvements
 
 🚀 Add more advanced operations (e.g., square root, percentage)
+
 🚀 Implement a dark mode toggle
+
 🚀 Improve mobile responsiveness
 
 Contributing
