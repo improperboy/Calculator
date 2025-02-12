@@ -16,7 +16,9 @@ Features
 Technologies Used
 
 HTML5 - Structure of the calculator
+
 CSS3 - Styling and animations
+
 JavaScript - Functionality and logic
 
 Project Structure
